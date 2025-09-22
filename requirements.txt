@@ -1,0 +1,36 @@
+# Requirements untuk Llama 3 RAG Project
+# Install dengan: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+torchvision
+torchaudio
+transformers>=4.30.0
+accelerate>=0.20.0
+bitsandbytes
+
+# Hugging Face Hub
+huggingface_hub>=0.15.0
+
+# Utilities
+tqdm
+requests
+numpy
+pandas
+
+# For Jupyter notebooks
+jupyter
+ipykernel
+
+# Optional: untuk RAG functionality
+sentence-transformers
+faiss-cpu
+chromadb
+
+# Optional: untuk API development
+fastapi
+uvicorn
+
+# Optional: untuk evaluasi
+evaluate
+datasets
